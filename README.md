@@ -34,7 +34,7 @@ To scan the local network using Nmap to identify active devices, enumerate open 
 
 4. **Capture Packets using Wireshark**
    - Wireshark was run during the Nmap scan to monitor live packet flow.
-   - The packet capture was saved as Wireshark_scan_capture.pcapng.
+   - The packet capture was saved as 'Wireshark_scan_capture.pcapng'.
    - This helped confirm TCP handshakes, SYN-ACK behavior, and filtered states.
 
 5. **Analyze Discovered Services**
@@ -43,7 +43,7 @@ To scan the local network using Nmap to identify active devices, enumerate open 
    - Services were grouped by risk: low, moderate, high.
 
 6. **Document Risk Assessment**
-   - Risks for each service were added to services_risks.md:
+   - Risks for each service were added to 'services_risks.md':
       - Exposure to default credentials
       - Outdated protocols (e.g., Telnet)
       - Vulnerabilities in HTTP interfaces
